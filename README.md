@@ -10,10 +10,12 @@ Using AWS providers and region as eu-west-1
  Also output the ec2 IP address
 
 Required below variables
-VPC CIDR block range
-Subnet CIDRs
-ami id to use
-Instance type
+
+1.VPC CIDR block range
+2.Subnet CIDRs
+3.ami id to use
+4.Instance type
+
 
 
 
