@@ -1,3 +1,23 @@
+To Create WordPress website on AWS, I have created the following resources using Terraform.
+Using AWS providers and region as eu-west-1
+1. VPC and Subnets
+2. EC2 instance and installed httpd, Mariadb and wordpress binaries using user data script
+3. Created the internet gateway and Route table, associated the route table and Internet gateway and then associated the routetable with subnet
+4. As we associated the internet gateway, EC2 instance can get the httpd, mariadb modules from internet
+5. Security groups to allow http traffic
+
+ Used the module structure to create the EC2 and VPC.
+ Also output the ec2 IP address
+
+Required below variables
+VPC CIDR block range
+Subnet CIDRs
+ami id to use
+Instance type
+
+
+
+
 For Production environment.
 
 Configuration:
