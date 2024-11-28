@@ -36,7 +36,7 @@ pipeline {
           stage(tfapply) {
             steps {
               script {
-                bat 'terraform.exe apply --auto-approve
+                bat 'terraform.exe apply --auto-approve'
               }
             }
           }   
