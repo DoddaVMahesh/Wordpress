@@ -35,6 +35,10 @@ Configuration:
 9. Allow only ALB traffic to EC2 instances, similarly only Allow EC2 instances traffic to DB. Security group configuration.
 10. Create NAT gateway for EC2 instances to access the internet for updates or internal repos for  updates.
 11. Create Routing tables accordingly.
+
+Use S3 along with dynamo db as backend to store the tf state file and to lock it.
+
+
 =====================================================================================
 Alerting:
 
